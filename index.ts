@@ -28,7 +28,6 @@ export const responsiveLoaderTinifyAdapter = ({
       metadata: () => Promise.resolve(originalSize),
       resize: ({ width, options }: IResizeParams) =>
         new Promise((resolve, reject) => {
-          console.log(originalSize);
           const resizeMethod = options.method || method;
           const newHeight = Math.round(
             originalSize.height * (width / originalSize.width)

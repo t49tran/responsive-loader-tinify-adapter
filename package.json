@@ -8,8 +8,9 @@
   "scripts": {
     "build": "tsc"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Duong Tran",
+  "homepage": "https://github.com/t49tran/responsive-loader-tinify-adapter",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "4.0.3"
   },
