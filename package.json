@@ -1,6 +1,6 @@
 {
   "name": "responsive-loader-tinify-adapter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tinify adapter for webpack responsive loader",
   "module": "dist/index.js",
   "main": "dist/index.js",
